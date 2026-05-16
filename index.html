@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Vinayak Mahadeo Buchade – IT Professional, MCA Student, Web Developer. Portfolio showcasing 10+ years of experience in IT infrastructure, lab instruction, and web development." />
+  <title>Vinayak Buchade | IT Professional & Developer</title>
+
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💻</text></svg>" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- AOS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- ══ Loading Screen ══ -->
+<div id="loading-screen">
+  <div class="loading-logo">VB</div>
+  <div class="loading-bar"><div class="loading-fill"></div></div>
+  <p style="color:var(--text-muted);font-size:0.8rem;letter-spacing:2px;">LOADING PORTFOLIO...</p>
+</div>
+
+<!-- ══ Custom Cursor ══ -->
+<div class="cursor-dot"></div>
+<div class="cursor-ring"></div>
+
+<!-- ══ Page Transition ══ -->
+<div class="page-transition"></div>
+
+<!-- ══ Background ══ -->
+<div class="mesh-bg"></div>
+<div id="particles-js"></div>
+
+<!-- ══ Toast Container ══ -->
+<div class="toast-container"></div>
+
+<!-- ══ Floating Socials ══ -->
+<div class="floating-socials">
+  <a href="https://www.linkedin.com/in/vinayakbuchade5531" target="_blank" class="social-link" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+  <a href="mailto:vinaybuchade@gmail.com" class="social-link" title="Email"><i class="fas fa-envelope"></i></a>
+  <a href="tel:7066175531" class="social-link" title="Phone"><i class="fas fa-phone"></i></a>
+</div>
+
+<!-- ══ Navbar ══ -->
+<nav class="navbar">
+  <a href="#hero" class="nav-logo">VB</a>
+  <div class="nav-links">
+    <a href="#hero" class="active">Home</a>
+    <a href="#about">About</a>
+    <a href="#experience">Experience</a>
+    <a href="#education">Education</a>
+    <a href="#projects">Projects</a>
+    <a href="#achievements">Achievements</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <div class="nav-actions">
+    <button class="theme-toggle" id="theme-toggle" title="Toggle theme">
+      <i class="fas fa-moon" id="theme-icon"></i>
+    </button>
+    <div class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+</nav>
+
+<!-- Mobile Nav -->
+<div class="mobile-nav" id="mobile-nav">
+  <a href="#hero" class="active">Home</a>
+  <a href="#about">About</a>
+  <a href="#experience">Experience</a>
+  <a href="#education">Education</a>
+  <a href="#projects">Projects</a>
+  <a href="#achievements">Achievements</a>
+  <a href="#contact">Contact</a>
+</div>
+
+<!-- ══════════════════════════════════════════════
+     HERO SECTION
+══════════════════════════════════════════════ -->
+<div class="page-wrapper">
+<section id="hero">
+  <div class="container">
+    <div class="hero-grid">
+
+      <!-- Left: Text -->
+      <div class="hero-content" data-aos="fade-right">
+        <div class="hero-badge">
+          <span class="dot"></span>
+          Available for Opportunities
+        </div>
+
+        <h1 class="hero-name">
+          Vinayak<br>
+          <span class="grad">Mahadeo Buchade</span>
+        </h1>
+
+        <p class="hero-typed-wrap">
+          <span id="typed-text"></span>
+        </p>
+
+        <p class="hero-desc">
+          Experienced IT professional with 10+ years in administration, lab instruction, and technical support. Expertise in IT infrastructure, network setup, enterprise system administration, and accreditation compliance. Currently pursuing MCA at RIT Ishwarpur under Shivaji University, Kolhapur.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary">
+            <i class="fas fa-paper-plane"></i> Hire Me
+          </a>
+          <a href="#projects" class="btn btn-outline">
+            <i class="fas fa-folder-open"></i> View Projects
+          </a>
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat-item">
+            <div class="stat-number">10+</div>
+            <div class="stat-label">Years Exp.</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">5</div>
+            <div class="stat-label">Institutes</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">84+</div>
+            <div class="stat-label">Schools Managed</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: Profile -->
+      <div class="profile-card" data-aos="fade-left" data-aos-delay="200">
+        <div class="profile-img-wrap">
+          <div class="profile-ring"><div class="profile-ring-inner"></div></div>
+          <div class="profile-img-placeholder"><img src="I:\New folder\Desktop\files\vinayak-portfolio\portfolio\{css,js,images,assets}\image.jpeg" alt="Vinayak Buchade" class="profile-img-placeholder" style="object-fit:cover;" /></div>
+	  
+
+          <!-- Floating badges -->
+          <div class="floating-badge badge-1">
+            <i class="fas fa-shield-alt"></i> Sophos Firewall Admin
+          </div>
+          <div class="floating-badge badge-2">
+            <i class="fab fa-react"></i> React.js Developer
+          </div>
+        </div>
+
+        <!-- Mini info card -->
+        <div class="glass-card" style="padding:20px 28px;width:100%;max-width:340px;">
+          <div style="display:flex;gap:12px;align-items:center;">
+            <div style="width:44px;height:44px;border-radius:50%;background:var(--gradient-main);display:flex;align-items:center;justify-content:center;font-size:1.2rem;">📍</div>
+            <div>
+              <div style="font-weight:700;font-size:0.95rem;">Palus, Maharashtra</div>
+              <div style="color:var(--text-muted);font-size:0.8rem;">Available · Open to Remote</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════
+     ABOUT SECTION
+══════════════════════════════════════════════ -->
+<section id="about" class="compact">
+  <div class="container">
+    <div class="section-header" data-aos="fade-up">
+      <div class="section-tag">About Me</div>
+      <h2 class="section-title">Who <span>I Am</span></h2>
+      <p class="section-desc">A decade of experience across education, IT infrastructure, and development</p>
+    </div>
+
+    <div class="about-grid">
+
+      <!-- Info -->
+      <div class="glass-card about-info" data-aos="fade-right">
+        <h3><i class="fas fa-user" style="margin-right:8px;"></i>Personal Info</h3>
+        <div class="info-item"><i class="fas fa-envelope"></i><div><strong>Email</strong><br><a href="mailto:vinaybuchade@gmail.com" style="color:var(--accent-blue)">vinaybuchade@gmail.com</a></div></div>
+        <div class="info-item"><i class="fas fa-phone"></i><div><strong>Phone</strong><br>7066175531</div></div>
+        <div class="info-item"><i class="fas fa-map-marker-alt"></i><div><strong>Address</strong><br>Durvankur, Pudale Vasti, Shivajinagar Road, Palus, Maharashtra 416310</div></div>
+        <div class="info-item"><i class="fab fa-linkedin"></i><div><strong>LinkedIn</strong><br><a href="https://www.linkedin.com/in/vinayakbuchade5531" target="_blank" style="color:var(--accent-blue)">vinayakbuchade5531</a></div></div>
+
+        <h3 style="margin-top:24px;"><i class="fas fa-heart" style="margin-right:8px;"></i>Hobbies & Interests</h3>
+        <div class="hobbies-flex">
+          <div class="hobby-card glass-card"><i class="fas fa-code"></i> Coding</div>
+          <div class="hobby-card glass-card"><i class="fas fa-palette"></i> Design</div>
+          <div class="hobby-card glass-card"><i class="fas fa-book"></i> Reading</div>
+          <div class="hobby-card glass-card"><i class="fas fa-chalkboard-teacher"></i> Teaching</div>
+          <div class="hobby-card glass-card"><i class="fas fa-network-wired"></i> Networking</div>
+        </div>
+      </div>
+
+      <!-- Skills -->
+      <div class="glass-card skills-container" data-aos="fade-left" data-aos-delay="150">
+        <h3>Technical Skills</h3>
+
+        <div class="skill-item">
+          <div class="skill-header"><span>IT Infrastructure / Networking</span><span class="skill-pct">90%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-pct="90"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-header"><span>Sophos Firewall & System Admin</span><span class="skill-pct">85%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-pct="85"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-header"><span>HTML5 & CSS3</span><span class="skill-pct">80%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-pct="80"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-header"><span>React.js</span><span class="skill-pct">70%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-pct="70"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-header"><span>SQL / Database Management</span><span class="skill-pct">78%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-pct="78"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-header"><span>Python / C</span><span class="skill-pct">65%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-pct="65"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-header"><span>Google Workspace Admin</span><span class="skill-pct">88%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-pct="88"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-header"><span>CorelDRAW / Adobe Photoshop</span><span class="skill-pct">75%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-pct="75"></div></div>
+        </div>
+
+        <h3 style="margin-top:28px;">Tools & Technologies</h3>
+        <div class="skills-tags">
+          <span class="tag">Sophos Firewall</span>
+          <span class="tag">Google Workspace</span>
+          <span class="tag">Tally ERP</span>
+          <span class="tag">React.js</span>
+          <span class="tag">HTML5</span>
+          <span class="tag">CSS3</span>
+          <span class="tag">SQL</span>
+          <span class="tag">Python</span>
+          <span class="tag">CorelDRAW</span>
+          <span class="tag">Adobe PS</span>
+          <span class="tag">vMix</span>
+          <span class="tag">MS Office</span>
+          <span class="tag">Linux</span>
+          <span class="tag">Windows Server</span>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Certifications -->
+    <div style="margin-top:48px;">
+      <h3 class="section-title" data-aos="fade-up" style="font-size:1.5rem;margin-bottom:24px;">Certifications</h3>
+      <div class="cert-grid">
+        <div class="cert-card glass-card" data-aos="fade-up" data-aos-delay="0">
+          <div class="cert-icon"><i class="fas fa-certificate"></i></div>
+          <div><div class="cert-name">NISM-Series-V-A</div><div class="cert-type">Mutual Fund Distributors Certification</div></div>
+        </div>
+        <div class="cert-card glass-card" data-aos="fade-up" data-aos-delay="80">
+          <div class="cert-icon"><i class="fas fa-react" style="font-family:var(--font-body);">⚛</i></div>
+          <div><div class="cert-name">React.js – Interactive Web Apps</div><div class="cert-type">Web Development Certification</div></div>
+        </div>
+        <div class="cert-card glass-card" data-aos="fade-up" data-aos-delay="160">
+          <div class="cert-icon"><i class="fas fa-database"></i></div>
+          <div><div class="cert-name">Practical SQL</div><div class="cert-type">Query and Manage Database</div></div>
+        </div>
+        <div class="cert-card glass-card" data-aos="fade-up" data-aos-delay="240">
+          <div class="cert-icon"><i class="fas fa-palette"></i></div>
+          <div><div class="cert-name">CorelDRAW Design</div><div class="cert-type">Pamphlets, Ads & Social Media</div></div>
+        </div>
+        <div class="cert-card glass-card" data-aos="fade-up" data-aos-delay="320">
+          <div class="cert-icon"><i class="fas fa-chalkboard"></i></div>
+          <div><div class="cert-name">Smart Board Setup</div><div class="cert-type">Education Technology Certification</div></div>
+        </div>
+        <div class="cert-card glass-card" data-aos="fade-up" data-aos-delay="400">
+          <div class="cert-icon"><i class="fas fa-calculator"></i></div>
+          <div><div class="cert-name">Tally Financial Software</div><div class="cert-type">Accounting & ERP Certification</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════
+     EXPERIENCE SECTION
+══════════════════════════════════════════════ -->
+<section id="experience" class="compact">
+  <div class="container">
+    <div class="section-header" data-aos="fade-up">
+      <div class="section-tag">Work History</div>
+      <h2 class="section-title">Professional <span>Experience</span></h2>
+      <p class="section-desc">10+ years of hands-on IT experience across academic and regional institutions</p>
+    </div>
+
+    <div class="experience-grid">
+
+      <div class="exp-card glass-card" data-aos="fade-up" data-aos-delay="0">
+        <div class="exp-header">
+          <div class="exp-icon">🏛️</div>
+          <div>
+            <div class="exp-role">IT Officer & Technical Administrator</div>
+            <div class="exp-org">Rayat Shikshan Sanstha, Southern Region, Sangli</div>
+          </div>
+        </div>
+        <div class="exp-duration">3 Years · Regional IT Management</div>
+        <ul class="exp-desc">
+          <li>Managed IT infrastructure for 84 schools and colleges across 5 districts</li>
+          <li>IT Coordinator for the Computer Department bridging teaching and non-teaching staff</li>
+          <li>Delivered weekly computer science lectures alongside administration</li>
+        </ul>
+      </div>
+
+      <div class="exp-card glass-card" data-aos="fade-up" data-aos-delay="100">
+        <div class="exp-header">
+          <div class="exp-icon">🏫</div>
+          <div>
+            <div class="exp-role">Assistant Teacher & Lab Instructor</div>
+            <div class="exp-org">Podar Jumbo Kids & Divine International School (CBSE), Vita</div>
+          </div>
+        </div>
+        <div class="exp-duration">3 Years · Education & Technical Support</div>
+        <ul class="exp-desc">
+          <li>Computer science lectures for Grades 2–8 (MS Office, Python, Scratch, TinkerCAD)</li>
+          <li>Technical In-Charge for online lectures during remote sessions</li>
+          <li>Full computer lab setup including networks and Wi-Fi</li>
+        </ul>
+      </div>
+
+      <div class="exp-card glass-card" data-aos="fade-up" data-aos-delay="200">
+        <div class="exp-header">
+          <div class="exp-icon">🔧</div>
+          <div>
+            <div class="exp-role">Technical Assistant</div>
+            <div class="exp-org">Dr. J J Magdum College of Engineering, Jaysingpur</div>
+          </div>
+        </div>
+        <div class="exp-duration">1 Year · Engineering College Lab</div>
+        <ul class="exp-desc">
+          <li>Managed complete computer lab operations and network setup (Wi-Fi & LAN)</li>
+          <li>Sophos Firewall administration and Google Workspace management</li>
+          <li>Government Exam Co-coordinator with TCS for Talathi and MH CET</li>
+        </ul>
+      </div>
+
+      <div class="exp-card glass-card" data-aos="fade-up" data-aos-delay="300">
+        <div class="exp-header">
+          <div class="exp-icon">🎓</div>
+          <div>
+            <div class="exp-role">Lab Instructor & Accreditation Support</div>
+            <div class="exp-org">Adarsh Institute of Technology and Research Center, Vita</div>
+          </div>
+        </div>
+        <div class="exp-duration">1 Year · Technical Education</div>
+        <ul class="exp-desc">
+          <li>Maintained NBA and NAAC accreditation lab records and compliance reports</li>
+          <li>Administered server systems and internet access management</li>
+          <li>Technical support for high-stakes government assessments</li>
+        </ul>
+      </div>
+
+      <div class="exp-card glass-card" data-aos="fade-up" data-aos-delay="400">
+        <div class="exp-header">
+          <div class="exp-icon">💼</div>
+          <div>
+            <div class="exp-role">Lab Instructor cum Lecturer</div>
+            <div class="exp-org">Adarsh InfoTech, Palus (Sangli)</div>
+          </div>
+        </div>
+        <div class="exp-duration">2 Years · IT Training Institute</div>
+        <ul class="exp-desc">
+          <li>Conducted practical sessions on MS-CIT and Tally ERP</li>
+          <li>Led practical courses in MS Office and financial software</li>
+          <li>System maintenance and lab management</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════
+     EDUCATION SECTION
+══════════════════════════════════════════════ -->
+<section id="education" class="compact">
+  <div class="container">
+    <div class="section-header" data-aos="fade-up">
+      <div class="section-tag">Academic Background</div>
+      <h2 class="section-title">My <span>Education</span></h2>
+    </div>
+
+    <div style="max-width:700px;margin:0 auto;">
+      <div class="timeline">
+
+        <div class="timeline-item" data-aos="fade-up">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card glass-card">
+            <div class="timeline-date">2025 – 2027 · Currently Pursuing</div>
+            <div class="timeline-degree">Master of Computer Applications (MCA)</div>
+            <div class="timeline-school">
+              <i class="fas fa-university" style="margin-right:6px;color:var(--accent-blue)"></i>
+              RIT Ishwarpur · Shivaji University, Kolhapur
+            </div>
+            <span class="timeline-pct">Status: Appearing</span>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-aos="fade-up" data-aos-delay="150">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card glass-card">
+            <div class="timeline-date">2007 – 2011</div>
+            <div class="timeline-degree">Bachelor of Computer Applications (BCA)</div>
+            <div class="timeline-school">
+              <i class="fas fa-university" style="margin-right:6px;color:var(--accent-blue)"></i>
+              IMRDA, Sangli · Bharati Vidyapeeth University
+            </div>
+            <span class="timeline-pct">52.66%</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Workshops -->
+    <div style="margin-top:60px;" data-aos="fade-up">
+      <h3 style="font-family:var(--font-display);font-size:1.4rem;font-weight:700;text-align:center;margin-bottom:24px;">Workshops & Activities</h3>
+      <div class="cert-grid">
+        <div class="cert-card glass-card">
+          <div class="cert-icon"><i class="fas fa-robot"></i></div>
+          <div>
+            <div class="cert-name">Transforming Teaching with Gemini</div>
+            <div class="cert-type">Gemini Academy</div>
+          </div>
+        </div>
+        <div class="cert-card glass-card">
+          <div class="cert-icon"><i class="fas fa-comments"></i></div>
+          <div>
+            <div class="cert-name">ChatGPT & Computer Maintenance Workshop</div>
+            <div class="cert-type">Shivaji University Lead College at JJMCOE, Jaysingpur</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════
+     PROJECTS SECTION
+══════════════════════════════════════════════ -->
+<section id="projects" class="compact">
+  <div class="container">
+    <div class="section-header" data-aos="fade-up">
+      <div class="section-tag">My Work</div>
+      <h2 class="section-title">Featured <span>Projects</span></h2>
+      <p class="section-desc">Real-world applications showcasing full-stack and web development skills</p>
+    </div>
+
+    <!-- Personal Projects -->
+    <div class="projects-grid">
+
+      <div class="project-card glass-card" data-aos="fade-up" data-aos-delay="0">
+        <div class="card-icon">🍽️</div>
+        <h3>Baba Cha Dhaba</h3>
+        <p>A fully functional restaurant web application with menu display, online ordering UI, and responsive design. Built with modern web technologies and deployed on Vercel.</p>
+        <div class="project-tags">
+          <span class="project-tag">HTML</span>
+          <span class="project-tag">CSS</span>
+          <span class="project-tag">JavaScript</span>
+          <span class="project-tag">Vercel</span>
+        </div>
+        <div class="project-actions">
+          <a href="https://baba-cha-dhaba.vercel.app/" target="_blank" class="btn btn-primary btn-sm">
+            <i class="fas fa-external-link-alt"></i> Live Demo
+          </a>
+        </div>
+      </div>
+
+      <div class="project-card glass-card" data-aos="fade-up" data-aos-delay="100">
+        <div class="card-icon">🗺️</div>
+        <h3>Geo Tag Offline Application</h3>
+        <p>A geolocation-based tagging application that works offline. Enables users to tag locations and manage geo-data without internet connectivity using local storage.</p>
+        <div class="project-tags">
+          <span class="project-tag">Geolocation API</span>
+          <span class="project-tag">Offline PWA</span>
+          <span class="project-tag">LocalStorage</span>
+          <span class="project-tag">JavaScript</span>
+        </div>
+        <div class="project-actions">
+          <a href="https://geo-tag-offline-application.vercel.app/" target="_blank" class="btn btn-primary btn-sm">
+            <i class="fas fa-external-link-alt"></i> Live Demo
+          </a>
+        </div>
+      </div>
+
+      <div class="project-card glass-card" data-aos="fade-up" data-aos-delay="200">
+        <div class="card-icon">🎣</div>
+        <h3>Fishing Tracker</h3>
+        <p>An interactive fishing activity tracker to log catch data, locations, and fishing sessions. Features data visualization and tracking history with a clean responsive UI.</p>
+        <div class="project-tags">
+          <span class="project-tag">JavaScript</span>
+          <span class="project-tag">Data Tracking</span>
+          <span class="project-tag">Responsive</span>
+          <span class="project-tag">Vercel</span>
+        </div>
+        <div class="project-actions">
+          <a href="https://fishing-tracker-sable.vercel.app/" target="_blank" class="btn btn-primary btn-sm">
+            <i class="fas fa-external-link-alt"></i> Live Demo
+          </a>
+        </div>
+      </div>
+
+      <div class="project-card glass-card" data-aos="fade-up" data-aos-delay="300">
+        <div class="card-icon">📝</div>
+        <h3>MCQ Extractor</h3>
+        <p>A smart MCQ extraction tool that parses and extracts multiple choice questions from documents. Useful for educators and students preparing question banks efficiently.</p>
+        <div class="project-tags">
+          <span class="project-tag">NLP</span>
+          <span class="project-tag">Text Parsing</span>
+          <span class="project-tag">JavaScript</span>
+          <span class="project-tag">React</span>
+        </div>
+        <div class="project-actions">
+          <a href="https://mcq-extracter.vercel.app/" target="_blank" class="btn btn-primary btn-sm">
+            <i class="fas fa-external-link-alt"></i> Live Demo
+          </a>
+        </div>
+      </div>
+
+      <div class="project-card glass-card" data-aos="fade-up" data-aos-delay="400">
+        <div class="card-icon">🌐</div>
+        <h3>Personal Portfolio Website</h3>
+        <p>This very portfolio! A modern glassmorphism-based portfolio built with HTML5, CSS3, JavaScript, jQuery, and AJAX. Featuring animated UI, dark/light mode, and API integration.</p>
+        <div class="project-tags">
+          <span class="project-tag">HTML5</span>
+          <span class="project-tag">CSS3</span>
+          <span class="project-tag">jQuery</span>
+          <span class="project-tag">AJAX</span>
+          <span class="project-tag">Particles.js</span>
+        </div>
+        <div class="project-actions">
+          <a href="#hero" class="btn btn-outline btn-sm">
+            <i class="fas fa-eye"></i> You're Here!
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- AJAX-powered section -->
+    <div class="ajax-section" data-aos="fade-up">
+      <div class="ajax-header">
+        <h3>📡 Dynamic Posts <span style="color:var(--text-muted);font-size:0.85rem;font-weight:400;">via AJAX · JSONPlaceholder API</span></h3>
+        <button class="btn btn-outline btn-sm" id="load-api-btn">
+          <i class="fas fa-sync-alt"></i> Refresh Data
+        </button>
+      </div>
+
+      <!-- Loading -->
+      <div id="ajax-loader" class="loading-spinner" style="display:none;">
+        <div class="spinner"></div>
+        <span>Fetching data from JSONPlaceholder API...</span>
+      </div>
+
+      <!-- Error state -->
+      <div id="ajax-error" class="glass-card" style="display:none;padding:32px;text-align:center;">
+        <div style="font-size:2rem;margin-bottom:12px;">⚠️</div>
+        <p style="color:var(--text-secondary);margin-bottom:16px;">Failed to load data. Please try again.</p>
+        <button class="btn btn-outline btn-sm" id="retry-ajax">
+          <i class="fas fa-redo"></i> Retry
+        </button>
+      </div>
+
+      <!-- API Grid -->
+      <div id="ajax-projects-grid" class="ajax-grid" style="display:none;"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════
+     ACHIEVEMENTS SECTION
+══════════════════════════════════════════════ -->
+<section id="achievements" class="compact">
+  <div class="container">
+    <div class="section-header" data-aos="fade-up">
+      <div class="section-tag">Recognition</div>
+      <h2 class="section-title">Achievements & <span>Milestones</span></h2>
+    </div>
+
+    <!-- Counter Strip -->
+    <div class="counter-strip" data-aos="fade-up">
+      <div class="counter-item">
+        <div class="counter-num" data-target="10" data-suffix="+">0+</div>
+        <div class="counter-lbl">Years Experience</div>
+      </div>
+      <div class="counter-item">
+        <div class="counter-num" data-target="84" data-suffix="+">0+</div>
+        <div class="counter-lbl">Schools Managed</div>
+      </div>
+      <div class="counter-item">
+        <div class="counter-num" data-target="5">0</div>
+        <div class="counter-lbl">Institutes Served</div>
+      </div>
+      <div class="counter-item">
+        <div class="counter-num" data-target="6">0</div>
+        <div class="counter-lbl">Certifications</div>
+      </div>
+    </div>
+
+    <div class="achievements-grid">
+
+      <div class="achievement-card glass-card" data-aos="fade-up" data-aos-delay="0">
+        <div class="achievement-icon">🏛️</div>
+        <div class="achievement-year">3 YEARS · REGIONAL SCALE</div>
+        <div class="achievement-title">Regional IT Head – 84 Institutions</div>
+        <div class="achievement-desc">Managed IT infrastructure across 84 schools and colleges in 5 districts under Rayat Shikshan Sanstha — a massive responsibility demonstrating operational leadership.</div>
+      </div>
+
+      <div class="achievement-card glass-card" data-aos="fade-up" data-aos-delay="100">
+        <div class="achievement-icon">🎓</div>
+        <div class="achievement-year">2025 – 2027</div>
+        <div class="achievement-title">MCA at RIT Ishwarpur</div>
+        <div class="achievement-desc">Currently pursuing Master of Computer Applications under Shivaji University Kolhapur after a decade of industry experience — combining practice with advanced theory.</div>
+      </div>
+
+      <div class="achievement-card glass-card" data-aos="fade-up" data-aos-delay="200">
+        <div class="achievement-icon">🛡️</div>
+        <div class="achievement-year">CERTIFICATION</div>
+        <div class="achievement-title">NISM Mutual Fund Distributor</div>
+        <div class="achievement-desc">NISM-Series-V-A certified Mutual Fund Distributor — demonstrating expertise beyond IT into financial services and regulatory compliance.</div>
+      </div>
+
+      <div class="achievement-card glass-card" data-aos="fade-up" data-aos-delay="300">
+        <div class="achievement-icon">📋</div>
+        <div class="achievement-year">ONGOING</div>
+        <div class="achievement-title">Accreditation Support Lead</div>
+        <div class="achievement-desc">Successfully maintained detailed lab documentation for NBA and NAAC accreditation at multiple institutions, ensuring compliance and institutional recognition.</div>
+      </div>
+
+      <div class="achievement-card glass-card" data-aos="fade-up" data-aos-delay="400">
+        <div class="achievement-icon">🤖</div>
+        <div class="achievement-year">WORKSHOP</div>
+        <div class="achievement-title">AI & EdTech Workshop Leader</div>
+        <div class="achievement-desc">Participated in Gemini Academy's "Transforming Teaching with AI" and conducted ChatGPT workshops, staying at the forefront of educational technology.</div>
+      </div>
+
+      <div class="achievement-card glass-card" data-aos="fade-up" data-aos-delay="500">
+        <div class="achievement-icon">🚀</div>
+        <div class="achievement-year">2024 – PRESENT</div>
+        <div class="achievement-title">4 Live Projects on Vercel</div>
+        <div class="achievement-desc">Successfully deployed 4 real-world web applications on Vercel including a restaurant app, geolocation tracker, fishing tracker, and MCQ extractor tool.</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════
+     CONTACT SECTION
+══════════════════════════════════════════════ -->
+<section id="contact" class="compact">
+  <div class="container">
+    <div class="section-header" data-aos="fade-up">
+      <div class="section-tag">Get In Touch</div>
+      <h2 class="section-title">Let's <span>Connect</span></h2>
+      <p class="section-desc">Have a project, collaboration idea, or opportunity? I'd love to hear from you.</p>
+    </div>
+
+    <div class="contact-grid">
+
+      <!-- Contact Info -->
+      <div class="glass-card contact-info" data-aos="fade-right">
+        <h3>Contact Information</h3>
+
+        <div class="contact-item">
+          <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+          <div class="contact-text">
+            <div class="label">Email</div>
+            <div class="value"><a href="mailto:vinaybuchade@gmail.com">vinaybuchade@gmail.com</a></div>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-icon"><i class="fas fa-phone"></i></div>
+          <div class="contact-text">
+            <div class="label">Phone</div>
+            <div class="value"><a href="tel:7066175531">7066 175 531</a></div>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-icon"><i class="fab fa-linkedin-in"></i></div>
+          <div class="contact-text">
+            <div class="label">LinkedIn</div>
+            <div class="value"><a href="https://www.linkedin.com/in/vinayakbuchade5531" target="_blank">vinayakbuchade5531</a></div>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+          <div class="contact-text">
+            <div class="label">Location</div>
+            <div class="value">Palus, Maharashtra 416310, India</div>
+          </div>
+        </div>
+
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/vinayakbuchade5531" target="_blank" class="social-link" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="mailto:vinaybuchade@gmail.com" class="social-link" title="Email"><i class="fas fa-envelope"></i></a>
+          <a href="tel:7066175531" class="social-link" title="Call"><i class="fas fa-phone"></i></a>
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <div class="glass-card contact-form-wrap" data-aos="fade-left" data-aos-delay="150">
+        <h3>Send a Message</h3>
+        <form id="contact-form" action="https://formspree.io/f/vinaybuchade@gmail.com" method="POST">
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="f-name">Full Name *</label>
+              <input type="text" id="f-name" name="name" placeholder="Your name" />
+              <div class="field-error" id="err-name">Please enter your name.</div>
+            </div>
+            <div class="form-group">
+              <label for="f-email">Email Address *</label>
+              <input type="email" id="f-email" name="email" placeholder="your@email.com" />
+              <div class="field-error" id="err-email">Please enter a valid email.</div>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="f-subject">Subject</label>
+            <input type="text" id="f-subject" name="subject" placeholder="What's this about?" />
+          </div>
+
+          <div class="form-group">
+            <label for="f-message">Message *</label>
+            <textarea id="f-message" name="message" placeholder="Write your message here..."></textarea>
+            <div class="field-error" id="err-message">Please enter your message.</div>
+          </div>
+
+          <button type="submit" class="btn btn-primary" id="submit-btn" style="width:100%;justify-content:center;">
+            <i class="fas fa-paper-plane"></i> Send Message
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Google Map -->
+    <div class="map-wrap" data-aos="fade-up" style="margin-top:48px;">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30558.234!2d74.4!3d17.05!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc27d8c09e02b4b%3A0x1e29c38a2a3e5!2sPalus%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        title="Palus, Maharashtra">
+      </iframe>
+    </div>
+  </div>
+</section>
+
+<!-- ══ Footer ══ -->
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <div class="logo">Vinayak Buchade</div>
+      <p>IT Professional · MCA Student · Web Developer<br>Palus, Maharashtra, India</p>
+      <div class="social-links" style="margin-top:20px;">
+        <a href="https://www.linkedin.com/in/vinayakbuchade5531" target="_blank" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+        <a href="mailto:vinaybuchade@gmail.com" class="social-link"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Navigation</h4>
+      <a href="#hero">Home</a>
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+    </div>
+    <div class="footer-col">
+      <h4>More</h4>
+      <a href="#projects">Projects</a>
+      <a href="#achievements">Achievements</a>
+      <a href="#contact">Contact</a>
+      <a href="https://baba-cha-dhaba.vercel.app/" target="_blank">Live Projects</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2025 <span>Vinayak Mahadeo Buchade</span>. All rights reserved.</p>
+    <p>Built with <span>♥</span> using HTML5, CSS3, jQuery & AJAX</p>
+  </div>
+</footer>
+
+<!-- Scroll to top -->
+<button class="scroll-top" id="scroll-top" title="Scroll to top">
+  <i class="fas fa-arrow-up"></i>
+</button>
+
+</div><!-- end page-wrapper -->
+
+<!-- ══ Scripts ══ -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.0.3/particles.min.js"></script>
+<script src="js/script.js"></script>
+<script src="js/ajax.js"></script>
+
+<script>
+// Connect hamburger to mobile nav
+$('#hamburger').on('click', function() {
+  $(this).toggleClass('open');
+  $('#mobile-nav').toggleClass('open');
+});
+// Scroll to top button
+$('#scroll-top').on('click', function() {
+  $('html,body').animate({scrollTop:0}, 600);
+});
+// Trigger skill bars on load if already in view
+setTimeout(function() {
+  var scrollY = $(window).scrollTop() + window.innerHeight;
+  if ($('#about').length && scrollY > $('#about').offset().top + 100) {
+    $('.skill-fill').each(function() { $(this).css('width', $(this).data('pct') + '%'); });
+  }
+}, 2200);
+</script>
+
+</body>
+</html>
