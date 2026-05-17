@@ -552,31 +552,7 @@
 
     </div>
 
-    <!-- AJAX-powered section -->
-    <div class="ajax-section" data-aos="fade-up">
-      <div class="ajax-header">
-        <h3>📡 Dynamic Posts <span style="color:var(--text-muted);font-size:0.85rem;font-weight:400;">via AJAX · JSONPlaceholder API</span></h3>
-        <button class="btn btn-outline btn-sm" id="load-api-btn">
-          <i class="fas fa-sync-alt"></i> Refresh Data
-        </button>
-      </div>
-
-      <!-- Loading -->
-      <div id="ajax-loader" class="loading-spinner" style="display:none;">
-        <div class="spinner"></div>
-        <span>Fetching data from JSONPlaceholder API...</span>
-      </div>
-
-      <!-- Error state -->
-      <div id="ajax-error" class="glass-card" style="display:none;padding:32px;text-align:center;">
-        <div style="font-size:2rem;margin-bottom:12px;">⚠️</div>
-        <p style="color:var(--text-secondary);margin-bottom:16px;">Failed to load data. Please try again.</p>
-        <button class="btn btn-outline btn-sm" id="retry-ajax">
-          <i class="fas fa-redo"></i> Retry
-        </button>
-      </div>
-
-      <!-- API Grid -->
+     <!-- API Grid -->
       <div id="ajax-projects-grid" class="ajax-grid" style="display:none;"></div>
     </div>
   </div>
